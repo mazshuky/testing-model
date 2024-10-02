@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachable Machine Model</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+    <h1>Model Prediction</h1>
+    <script>
+        async function loadModel() {
+            const model = await tf.loadLayersModel('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/model.json');
+            // Add logic for making predictions
+        }
+        loadModel();
+    </script>
+</body>
+</html>
